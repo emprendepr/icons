@@ -5,9 +5,16 @@
         "source": "github",
         "repo": "thedotmack/claude-mem"
       }
+    },
+    "anthropic-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills"
+      }
     }
   },
   "enabledPlugins": {
-    "claude-mem@thedotmack": true
+    "claude-mem@thedotmack": true,
+    "document-skills@anthropic-agent-skills": true
   }
 }
