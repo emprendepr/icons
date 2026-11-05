@@ -11,10 +11,19 @@
         "source": "github",
         "repo": "anthropics/skills"
       }
+    },
+    "gsap-skills": {
+      "source": {
+        "source": "github",
+        "repo": "greensock/gsap-skills"
+      }
     }
   },
   "enabledPlugins": {
     "claude-mem@thedotmack": true,
-    "document-skills@anthropic-agent-skills": true
+    "document-skills@anthropic-agent-skills": true,
+    "example-skills@anthropic-agent-skills": true,
+    "gsap-skills@gsap-skills": true,
+    "figma@claude-plugins-official": true
   }
 }
